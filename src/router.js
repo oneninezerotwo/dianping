@@ -1,9 +1,9 @@
-import React from 'react';
-import { Router, Route, Switch } from 'dva/router';
-import Homepage from './routes/Homepage/Homepage';
-import LogRegister from './routes/LogRegister/LogRegister';
-import Food from './routes/Food/Food';
-import Movie from './routes/Movie/Movie';
+import React from "react";
+import { Router, Route, Switch } from "dva/router";
+import Homepage from "./routes/Homepage/Homepage";
+import LogRegister from "./routes/LogRegister/LogRegister";
+import Food from "./routes/Food/Food";
+import Movie from "./routes/Movie/Movie";
 
 function RouterConfig({ history }) {
   return (
